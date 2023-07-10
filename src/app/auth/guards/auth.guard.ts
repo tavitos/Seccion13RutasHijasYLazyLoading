@@ -1,8 +1,10 @@
 // import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, CanActivateFn, CanMatchFn, Route, UrlSegment, RouterStateSnapshot, Router } from '@angular/router';
-import { Observable, tap } from 'rxjs';
-import { AuthService } from '../services/auth.service';
 import { inject } from '@angular/core';
+import { ActivatedRouteSnapshot, CanActivateFn, CanMatchFn, Route, UrlSegment, RouterStateSnapshot, Router } from '@angular/router';
+
+import { AuthService } from '../services/auth.service';
+
+import { Observable, tap } from 'rxjs';
 // import { tap } from 'rxjs';
 // import { Observable } from 'rxjs';
 // import { AuthService } from './auth/services/auth.service';
